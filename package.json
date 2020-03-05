@@ -2,8 +2,10 @@
   "name": "restaurant-page",
   "version": "1.0.0",
   "description": "A simple restaurant page",
-  "main": "index.js",
+  "private":true,
   "scripts": {
+    "build":"webpack",
+    "watch":"webpack --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
