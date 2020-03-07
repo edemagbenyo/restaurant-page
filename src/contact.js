@@ -1,4 +1,4 @@
-export default (function () {
+export default contact = (function () {
   const title = document.createElement('h1');
   const workingsUl = document.createElement('ul');
   workingsUl.innerHTML = `

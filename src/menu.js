@@ -1,4 +1,4 @@
-export default (function () {
+export default menu =  (function () {
   const title = document.createElement('h1');
   const menuFoodUl = document.createElement('ul');
   menuFoodUl.innerHTML = `
