@@ -12,8 +12,6 @@ A simple restaurant page.
 
 ### Test Online
 
-# Game Rules
-
 ## Built With
 
 - HTML, CSS, Bootstrap, Javascript
@@ -21,6 +19,9 @@ A simple restaurant page.
 - Webpack and webpack-cli for bundling
 - Vscode for coding
 - ESLint for Validation
+
+## Installation 
+
 
 For more information, see the
 [*The Odin Project*]().
@@ -35,17 +36,8 @@ For more information, see the
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [Microverse](https://www.microverse.org/)
-* [The Odin Project](https://www.theodinproject.com/)
-* [Readme header](https://github.com/collinsugwu/Microverse201-Enumerable-Methods)
+* [Microverse](https://microverse.pathwright.com/library/fast-track-curriculum/69047/path/step/59623451/)
+* [The Odin Project](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
-[contributors-url]: https://github.com/Datagirlcmr/Game-Tic-Tac-Toe-/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Datagirlcmr/Game-Tic-Tac-Toe-
-[forks-url]: https://github.com/Datagirlcmr/Game-Tic-Tac-Toe-/network/members
-[stars-shield]: https://img.shields.io/github/stars/Datagirlcmr/Game-Tic-Tac-Toe-
-[stars-url]: https://github.com/Datagirlcmr/Game-Tic-Tac-Toe-/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Datagirlcmr/Game-Tic-Tac-Toe-
-[issues-url]: https://github.com/Datagirlcmr/Game-Tic-Tac-Toe-/issues
