@@ -1,11 +1,11 @@
-export default (function(){
-  let title = document.createElement('h1');
-  title.innerText = "Menu"
+export default (function () {
+  const title = document.createElement('h1');
+  title.innerText = 'Menu';
 
-  let createPage = ()=>{
+  const createPage = () => {
     const content = document.createElement('div');
     content.append(title);
-    return content
-  }
-  return {createPage}
-})()
+    return content;
+  };
+  return { createPage };
+}());
