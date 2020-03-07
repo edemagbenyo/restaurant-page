@@ -8,13 +8,13 @@ export default (function () {
   <li>Crispy Fingerling Potatoes - $15</li>
   <li>Crispy Cauliflower - $15</li>
   <li>Salad of Organic Spring Greens - $15</li>
-  `
+  `;
   title.innerText = 'Menu';
 
   const createPage = () => {
     const content = document.createElement('div');
-    content.classList = 'tab-content'
-    content.append(title,menuFoodUl);
+    content.classList = 'tab-content';
+    content.append(title, menuFoodUl);
     return content;
   };
   return { createPage };
