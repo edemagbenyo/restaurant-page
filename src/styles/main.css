@@ -1,0 +1,29 @@
+* {
+  padding:0;
+  margin:0;
+  border:0;
+}
+#content{
+  width: 800px;
+  margin: auto;
+  padding:50px;
+  background: aquamarine;
+}
+.tabs-ul{
+  background: #998899;;
+}
+
+.tab-content{
+  background-color: white;
+  padding:30px;
+}
+.tabs-ul li{
+  display: inline-block;
+  padding:10px;
+  cursor:pointer;
+  background: rgb(253, 58, 58);
+}
+
+.current{
+  background-color: #FFFFFF !important;
+}
