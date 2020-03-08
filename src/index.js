@@ -3,8 +3,8 @@ import menu from './menu';
 import './styles/main.css';
 
 (() => {
-  const contactpage = contact.createPage();
-  const menupage = menu.createPage();
+  const contactpage = contact().createPage();
+  const menupage = menu().createPage();
   const content = document.querySelector('#content');
   const tabsUl = document.createElement('ul');
   const tabsLiContact = document.createElement('li');

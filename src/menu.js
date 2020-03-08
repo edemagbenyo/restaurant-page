@@ -1,4 +1,4 @@
-export default menu =  (function () {
+function menu() {
   const title = document.createElement('h1');
   const menuFoodUl = document.createElement('ul');
   menuFoodUl.innerHTML = `
@@ -18,4 +18,6 @@ export default menu =  (function () {
     return content;
   };
   return { createPage };
-}());
+}
+
+export default menu;
