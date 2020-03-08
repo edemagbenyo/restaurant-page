@@ -13,7 +13,7 @@ function menu() {
   <li data-img="banana">Warm Banana Bread - $12</li>
   <li data-img="milk">Sheep’s Milk Ricotta - $9</li>
   <li data-img="potatoes">Crispy Fingerling Potatoes - $11</li>
-  <li data="crispy">Crispy Cauliflower - $19</li>
+  <li data-img="crispy">Crispy Cauliflower - $19</li>
   <li data-img="salad">Salad of Organic Spring Greens - $10</li>
   `;
   title.innerText = 'Menu';
