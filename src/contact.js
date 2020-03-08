@@ -1,4 +1,4 @@
-import Page from "./page";
+import Page from './page';
 
 function contact() {
   const header = document.createElement('h1');
@@ -16,13 +16,13 @@ function contact() {
   <li>Address : Lemon st. Accra, Ghana</li>`;
   header.innerText = 'Contact us today.';
 
-  //Styling
-  hours.classList = "hours-ul"
-  info.classList = "info-ul"
+  // Styling
+  hours.classList = 'hours-ul';
+  info.classList = 'info-ul';
 
-  const body = document.createElement('div')
-  body.append(hours, info)
-  const page = new Page(header,body)
+  const body = document.createElement('div');
+  body.append(hours, info);
+  const page = new Page(header, body);
   return page.createPage();
 }
 

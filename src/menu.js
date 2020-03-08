@@ -1,10 +1,11 @@
-import Page from "./page";
-import flower from "./images/flower.jpeg"
-import banana from "./images/banana.jpeg"
-import milk from "./images/milk.jpeg"
-import potatoes from "./images/potatoes.jpeg"
-import crispy from "./images/crispy.jpeg"
-import salad from "./images/salad.jpeg"
+import Page from './page';
+import flower from './images/flower.jpeg';
+import banana from './images/banana.jpeg';
+import milk from './images/milk.jpeg';
+import potatoes from './images/potatoes.jpeg';
+import crispy from './images/crispy.jpeg';
+import salad from './images/salad.jpeg';
+
 function menu() {
   const title = document.createElement('h1');
   const menuFoodUl = document.createElement('ul');
@@ -18,42 +19,42 @@ function menu() {
   `;
   title.innerText = 'Menu';
 
-  //Add class
-  menuFoodUl.classList='foods-ul'
+  // Add class
+  menuFoodUl.classList = 'foods-ul';
 
-  const lis= menuFoodUl.getElementsByTagName('li');
+  const lis = menuFoodUl.getElementsByTagName('li');
 
-const menuList = Array.from(lis);
-menuList.forEach(food=>{
-  const image = document.createElement('img');
-  // console.log();
-  switch (food.getAttribute('data-img')) {
-    case 'flower':
-      image.src=flower;
-      break;
-    case 'banana':
-      image.src=banana;
-      break;
-    case 'milk':
-      image.src=milk;
-      break;
-    case 'potatoes':
-      image.src=potatoes;
-      break;
-    case 'crispy':
-      image.src=crispy;
-      break;
-    case 'salad':
-      image.src=salad;
-      break;
-  
-    default:
-      break;
-  }
-  
-  food.append(image)
-})
-const page = new Page(title,menuFoodUl);
+  const menuList = Array.from(lis);
+  menuList.forEach(food => {
+    const image = document.createElement('img');
+    // console.log();
+    switch (food.getAttribute('data-img')) {
+      case 'flower':
+        image.src = flower;
+        break;
+      case 'banana':
+        image.src = banana;
+        break;
+      case 'milk':
+        image.src = milk;
+        break;
+      case 'potatoes':
+        image.src = potatoes;
+        break;
+      case 'crispy':
+        image.src = crispy;
+        break;
+      case 'salad':
+        image.src = salad;
+        break;
+
+      default:
+        break;
+    }
+
+    food.append(image);
+  });
+  const page = new Page(title, menuFoodUl);
   return page.createPage();
 }
 
