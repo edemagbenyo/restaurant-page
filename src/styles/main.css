@@ -28,3 +28,7 @@
 .current{
   background-color: #FFFFFF !important;
 }
+
+.foods-ul{
+  list-style: none;
+}

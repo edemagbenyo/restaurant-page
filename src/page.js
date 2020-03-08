@@ -9,7 +9,7 @@ export default class Page{
   createPage (){
     const div = document.createElement('div');
     if(!this.footer){
-      this.footer = document.createElement('p');
+      this.footer = document.createElement('footer');
       this.footer.innerHTML = "Copyright &copy; 2020. El Chapo restaurant"
     }
      div.append(this.header,this.body,this.footer)
